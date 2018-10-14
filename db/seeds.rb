@@ -10,6 +10,6 @@
 #Task.create(content: 'test task 2', status: 'status 2')
 #Task.create(content: 'test task 3', status: 'status 3')
 
-(1..100).each do |number|
-  Task.create!(content: 'test task ' + number.to_s, status: 'test status ' + number.to_s)
-end
+#(1..100).each do |number|
+#  Task.create!(content: 'test task ' + number.to_s, status: 'test status ' + number.to_s)
+#end
